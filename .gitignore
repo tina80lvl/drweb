@@ -1,7 +1,6 @@
 # CLion
-cmake-build-debug
-.idea
-.idea/workspace.xml
+.gradle
+.idea/
 
 # Prerequisites
 *.d
