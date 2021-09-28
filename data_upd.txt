@@ -1,0 +1,5 @@
+00001 node1 node2
+00002 waiter node3
+00003 node3 end
+00004 node1 waiter node3
+00005 end

@@ -1,0 +1,6 @@
+script:main parents: {code}
+transform:node1 parents:main {rule}
+script:node2 parents:main {code2}
+wait:waiter parents:node2 33
+script:node3 parents:node2,node1 {code}
+script:end parents:node3,waiter {code of end}

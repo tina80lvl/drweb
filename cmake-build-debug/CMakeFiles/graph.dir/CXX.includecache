@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tina/dev/testtasks/drweb/graph/main.cpp
+sstream
+-
+fstream
+-
+struct.h
+/Users/tina/dev/testtasks/drweb/graph/struct.h
+util.h
+/Users/tina/dev/testtasks/drweb/graph/util.h
+
+/Users/tina/dev/testtasks/drweb/graph/struct.cpp
+struct.h
+/Users/tina/dev/testtasks/drweb/graph/struct.h
+
+/Users/tina/dev/testtasks/drweb/graph/struct.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+/Users/tina/dev/testtasks/drweb/graph/util.h
+cstring
+-
+vector
+-
+
